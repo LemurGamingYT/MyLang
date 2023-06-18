@@ -14,8 +14,28 @@ class MyLangVisitor(ParseTreeVisitor):
         return self.visitChildren(ctx)
 
 
+    # Visit a parse tree produced by MyLangParser#block.
+    def visitBlock(self, ctx:MyLangParser.BlockContext):
+        return self.visitChildren(ctx)
+
+
     # Visit a parse tree produced by MyLangParser#stmt.
     def visitStmt(self, ctx:MyLangParser.StmtContext):
+        return self.visitChildren(ctx)
+
+
+    # Visit a parse tree produced by MyLangParser#assignments.
+    def visitAssignments(self, ctx:MyLangParser.AssignmentsContext):
+        return self.visitChildren(ctx)
+
+
+    # Visit a parse tree produced by MyLangParser#var_assignment.
+    def visitVar_assignment(self, ctx:MyLangParser.Var_assignmentContext):
+        return self.visitChildren(ctx)
+
+
+    # Visit a parse tree produced by MyLangParser#func_assignment.
+    def visitFunc_assignment(self, ctx:MyLangParser.Func_assignmentContext):
         return self.visitChildren(ctx)
 
 
@@ -26,6 +46,11 @@ class MyLangVisitor(ParseTreeVisitor):
 
     # Visit a parse tree produced by MyLangParser#args.
     def visitArgs(self, ctx:MyLangParser.ArgsContext):
+        return self.visitChildren(ctx)
+
+
+    # Visit a parse tree produced by MyLangParser#params.
+    def visitParams(self, ctx:MyLangParser.ParamsContext):
         return self.visitChildren(ctx)
 
 

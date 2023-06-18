@@ -2,10 +2,17 @@ grammar MyLang;
 
 LPAREN : '(';
 RPAREN : ')';
+LBRACE : '{';
+RBRACE : '}';
 
+EQUALS : '=';
 SEMI : ';';
 DOT : '.';
 COMMA : ',';
+
+FUNC : 'func' | 'fn';
+
+ARITHOPS : '+' | '-' | '*' | '/' | '%' | '^';
 
 ID : [a-zA-Z_][a-zA-Z0-9_]*;
 STRING : '"' (~["\r\n] | '""')* '"';
@@ -19,13 +26,22 @@ COMMENT : '#' ~[\r\n]* -> skip;
 
 parse : stmt* EOF;
 
+block : LBRACE stmt* RBRACE;
+
 stmt
     : expr SEMI?
+    | assignments SEMI?
     ;
+
+assignments : var_assignment | func_assignment;
+
+var_assignment : ID EQUALS expr;
+func_assignment : FUNC ID LPAREN params? RPAREN block;
 
 call : ID LPAREN args? RPAREN;
 
 args : expr (COMMA expr)*;
+params : ID (COMMA ID)*;
 
 expr
     : ID
@@ -34,5 +50,6 @@ expr
     | FLOAT
     | NULL
     | BOOL
+    | expr op=ARITHOPS expr
     | call
     ;

@@ -1,2 +1,1 @@
-println("Hello World")
-println(50)
+println(5 + 2)
