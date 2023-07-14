@@ -1,0 +1,354 @@
+[
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "stdout",
+        "importPath": "sys",
+        "description": "sys",
+        "isExtraImport": true,
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "antlr4",
+        "description": "antlr4",
+        "isExtraImport": true,
+        "detail": "antlr4",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "antlr4",
+        "description": "antlr4",
+        "isExtraImport": true,
+        "detail": "antlr4",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "antlr4",
+        "description": "antlr4",
+        "isExtraImport": true,
+        "detail": "antlr4",
+        "documentation": {}
+    },
+    {
+        "label": "StringIO",
+        "importPath": "io",
+        "description": "io",
+        "isExtraImport": true,
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "StringIO",
+        "importPath": "io",
+        "description": "io",
+        "isExtraImport": true,
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "listdir",
+        "importPath": "os",
+        "description": "os",
+        "isExtraImport": true,
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "MyLangLexer",
+        "kind": 6,
+        "importPath": "core.gen.MyLangLexer",
+        "description": "core.gen.MyLangLexer",
+        "peekOfCode": "class MyLangLexer(Lexer):\n    atn = ATNDeserializer().deserialize(serializedATN())\n    decisionsToDFA = [ DFA(ds, i) for i, ds in enumerate(atn.decisionToState) ]\n    LPAREN = 1\n    RPAREN = 2\n    LBRACE = 3\n    RBRACE = 4\n    EQUALS = 5\n    SEMI = 6\n    DOT = 7",
+        "detail": "core.gen.MyLangLexer",
+        "documentation": {}
+    },
+    {
+        "label": "serializedATN",
+        "kind": 2,
+        "importPath": "core.gen.MyLangLexer",
+        "description": "core.gen.MyLangLexer",
+        "peekOfCode": "def serializedATN():\n    return [\n        4,0,18,133,6,-1,2,0,7,0,2,1,7,1,2,2,7,2,2,3,7,3,2,4,7,4,2,5,7,5,\n        2,6,7,6,2,7,7,7,2,8,7,8,2,9,7,9,2,10,7,10,2,11,7,11,2,12,7,12,2,\n        13,7,13,2,14,7,14,2,15,7,15,2,16,7,16,2,17,7,17,1,0,1,0,1,1,1,1,\n        1,2,1,2,1,3,1,3,1,4,1,4,1,5,1,5,1,6,1,6,1,7,1,7,1,8,1,8,1,8,1,8,\n        1,8,1,8,3,8,60,8,8,1,9,1,9,1,10,1,10,5,10,66,8,10,10,10,12,10,69,\n        9,10,1,11,1,11,1,11,1,11,5,11,75,8,11,10,11,12,11,78,9,11,1,11,1,\n        11,1,12,3,12,83,8,12,1,12,4,12,86,8,12,11,12,12,12,87,1,13,1,13,\n        4,13,92,8,13,11,13,12,13,93,3,13,96,8,13,1,13,1,13,5,13,100,8,13,",
+        "detail": "core.gen.MyLangLexer",
+        "documentation": {}
+    },
+    {
+        "label": "MyLangParse",
+        "kind": 6,
+        "importPath": "core.gen.MyLangParser",
+        "description": "core.gen.MyLangParser",
+        "peekOfCode": "class MyLangParser ( Parser ):\n    grammarFileName = \"MyLang.g4\"\n    atn = ATNDeserializer().deserialize(serializedATN())\n    decisionsToDFA = [ DFA(ds, i) for i, ds in enumerate(atn.decisionToState) ]\n    sharedContextCache = PredictionContextCache()\n    literalNames = [ \"<INVALID>\", \"'('\", \"')'\", \"'{'\", \"'}'\", \"'='\", \"';'\", \n                     \"'.'\", \"','\", \"<INVALID>\", \"<INVALID>\", \"<INVALID>\", \n                     \"<INVALID>\", \"<INVALID>\", \"<INVALID>\", \"'null'\" ]\n    symbolicNames = [ \"<INVALID>\", \"LPAREN\", \"RPAREN\", \"LBRACE\", \"RBRACE\", \n                      \"EQUALS\", \"SEMI\", \"DOT\", \"COMMA\", \"FUNC\", \"ARITHOPS\", ",
+        "detail": "core.gen.MyLangParser",
+        "documentation": {}
+    },
+    {
+        "label": "serializedATN",
+        "kind": 2,
+        "importPath": "core.gen.MyLangParser",
+        "description": "core.gen.MyLangParser",
+        "peekOfCode": "def serializedATN():\n    return [\n        4,1,18,106,2,0,7,0,2,1,7,1,2,2,7,2,2,3,7,3,2,4,7,4,2,5,7,5,2,6,7,\n        6,2,7,7,7,2,8,7,8,2,9,7,9,1,0,5,0,22,8,0,10,0,12,0,25,9,0,1,0,1,\n        0,1,1,1,1,5,1,31,8,1,10,1,12,1,34,9,1,1,1,1,1,1,2,1,2,3,2,40,8,2,\n        1,2,1,2,3,2,44,8,2,3,2,46,8,2,1,3,1,3,3,3,50,8,3,1,4,1,4,1,4,1,4,\n        1,5,1,5,1,5,1,5,3,5,60,8,5,1,5,1,5,1,5,1,6,1,6,1,6,3,6,68,8,6,1,\n        6,1,6,1,7,1,7,1,7,5,7,75,8,7,10,7,12,7,78,9,7,1,8,1,8,1,8,5,8,83,\n        8,8,10,8,12,8,86,9,8,1,9,1,9,1,9,1,9,1,9,1,9,1,9,1,9,3,9,96,8,9,\n        1,9,1,9,1,9,5,9,101,8,9,10,9,12,9,104,9,9,1,9,0,1,18,10,0,2,4,6,",
+        "detail": "core.gen.MyLangParser",
+        "documentation": {}
+    },
+    {
+        "label": "MyLangVisitor",
+        "kind": 6,
+        "importPath": "core.gen.MyLangVisitor",
+        "description": "core.gen.MyLangVisitor",
+        "peekOfCode": "class MyLangVisitor(ParseTreeVisitor):\n    # Visit a parse tree produced by MyLangParser#parse.\n    def visitParse(self, ctx:MyLangParser.ParseContext):\n        return self.visitChildren(ctx)\n    # Visit a parse tree produced by MyLangParser#block.\n    def visitBlock(self, ctx:MyLangParser.BlockContext):\n        return self.visitChildren(ctx)\n    # Visit a parse tree produced by MyLangParser#stmt.\n    def visitStmt(self, ctx:MyLangParser.StmtContext):\n        return self.visitChildren(ctx)",
+        "detail": "core.gen.MyLangVisitor",
+        "documentation": {}
+    },
+    {
+        "label": "boolRepr",
+        "kind": 6,
+        "importPath": "core.reprs.boolRepr",
+        "description": "core.reprs.boolRepr",
+        "peekOfCode": "class boolRepr():\n    value: bool",
+        "detail": "core.reprs.boolRepr",
+        "documentation": {}
+    },
+    {
+        "label": "@dataclass(init",
+        "kind": 5,
+        "importPath": "core.reprs.boolRepr",
+        "description": "core.reprs.boolRepr",
+        "peekOfCode": "@dataclass(init = True, repr = True)\nclass boolRepr():\n    value: bool",
+        "detail": "core.reprs.boolRepr",
+        "documentation": {}
+    },
+    {
+        "label": "floatRepr",
+        "kind": 6,
+        "importPath": "core.reprs.floatRepr",
+        "description": "core.reprs.floatRepr",
+        "peekOfCode": "class floatRepr():\n    value: float",
+        "detail": "core.reprs.floatRepr",
+        "documentation": {}
+    },
+    {
+        "label": "@dataclass(init",
+        "kind": 5,
+        "importPath": "core.reprs.floatRepr",
+        "description": "core.reprs.floatRepr",
+        "peekOfCode": "@dataclass(init = True, repr = True)\nclass floatRepr():\n    value: float",
+        "detail": "core.reprs.floatRepr",
+        "documentation": {}
+    },
+    {
+        "label": "funcRepr",
+        "kind": 6,
+        "importPath": "core.reprs.funcRepr",
+        "description": "core.reprs.funcRepr",
+        "peekOfCode": "class funcRepr():\n    name: str\n    parameters: list\n    block: MyLangParser.BlockContext",
+        "detail": "core.reprs.funcRepr",
+        "documentation": {}
+    },
+    {
+        "label": "@dataclass(init",
+        "kind": 5,
+        "importPath": "core.reprs.funcRepr",
+        "description": "core.reprs.funcRepr",
+        "peekOfCode": "@dataclass(init = True, repr = True)\nclass funcRepr():\n    name: str\n    parameters: list\n    block: MyLangParser.BlockContext",
+        "detail": "core.reprs.funcRepr",
+        "documentation": {}
+    },
+    {
+        "label": "idRepr",
+        "kind": 6,
+        "importPath": "core.reprs.idRepr",
+        "description": "core.reprs.idRepr",
+        "peekOfCode": "class idRepr():\n    value: str",
+        "detail": "core.reprs.idRepr",
+        "documentation": {}
+    },
+    {
+        "label": "@dataclass(init",
+        "kind": 5,
+        "importPath": "core.reprs.idRepr",
+        "description": "core.reprs.idRepr",
+        "peekOfCode": "@dataclass(init = True, repr = True)\nclass idRepr():\n    value: str",
+        "detail": "core.reprs.idRepr",
+        "documentation": {}
+    },
+    {
+        "label": "intRepr",
+        "kind": 6,
+        "importPath": "core.reprs.intRepr",
+        "description": "core.reprs.intRepr",
+        "peekOfCode": "class intRepr():\n    value: int\n    def __add__(self, other):\n        if isinstance(other, intRepr):\n            return intRepr(self.value + other.value)\n        else:\n            # error\n            pass",
+        "detail": "core.reprs.intRepr",
+        "documentation": {}
+    },
+    {
+        "label": "@dataclass(init",
+        "kind": 5,
+        "importPath": "core.reprs.intRepr",
+        "description": "core.reprs.intRepr",
+        "peekOfCode": "@dataclass(init = True, repr = True)\nclass intRepr():\n    value: int\n    def __add__(self, other):\n        if isinstance(other, intRepr):\n            return intRepr(self.value + other.value)\n        else:\n            # error\n            pass",
+        "detail": "core.reprs.intRepr",
+        "documentation": {}
+    },
+    {
+        "label": "nullRepr",
+        "kind": 6,
+        "importPath": "core.reprs.nullRepr",
+        "description": "core.reprs.nullRepr",
+        "peekOfCode": "class nullRepr():\n    value: str = \"null\"",
+        "detail": "core.reprs.nullRepr",
+        "documentation": {}
+    },
+    {
+        "label": "@dataclass(init",
+        "kind": 5,
+        "importPath": "core.reprs.nullRepr",
+        "description": "core.reprs.nullRepr",
+        "peekOfCode": "@dataclass(init = True, repr = True)\nclass nullRepr():\n    value: str = \"null\"",
+        "detail": "core.reprs.nullRepr",
+        "documentation": {}
+    },
+    {
+        "label": "stringRepr",
+        "kind": 6,
+        "importPath": "core.reprs.stringRepr",
+        "description": "core.reprs.stringRepr",
+        "peekOfCode": "class stringRepr():\n    value: str",
+        "detail": "core.reprs.stringRepr",
+        "documentation": {}
+    },
+    {
+        "label": "@dataclass(init",
+        "kind": 5,
+        "importPath": "core.reprs.stringRepr",
+        "description": "core.reprs.stringRepr",
+        "peekOfCode": "@dataclass(init = True, repr = True)\nclass stringRepr():\n    value: str",
+        "detail": "core.reprs.stringRepr",
+        "documentation": {}
+    },
+    {
+        "label": "varRepr",
+        "kind": 6,
+        "importPath": "core.reprs.varRepr",
+        "description": "core.reprs.varRepr",
+        "peekOfCode": "class varRepr():\n    name: str\n    value: Any\n    constant: bool",
+        "detail": "core.reprs.varRepr",
+        "documentation": {}
+    },
+    {
+        "label": "@dataclass(init",
+        "kind": 5,
+        "importPath": "core.reprs.varRepr",
+        "description": "core.reprs.varRepr",
+        "peekOfCode": "@dataclass(init = True, repr = True)\nclass varRepr():\n    name: str\n    value: Any\n    constant: bool",
+        "detail": "core.reprs.varRepr",
+        "documentation": {}
+    },
+    {
+        "label": "Environment",
+        "kind": 6,
+        "importPath": "core.env",
+        "description": "core.env",
+        "peekOfCode": "class Environment:\n    def __init__(self):\n        self.variables: Dict[str: varRepr] = {}\n        self.functions: Dict[str: funcRepr] = {}\n    def add_var(self, representation: varRepr):\n        self.variables[representation.name] = representation\n    def get_var(self, name: str):\n        return self.variables[name]\n    def get_var_value(self, name: str):\n        return self.variables[name].value",
+        "detail": "core.env",
+        "documentation": {}
+    },
+    {
+        "label": "Visitor",
+        "kind": 6,
+        "importPath": "core.Visitor",
+        "description": "core.Visitor",
+        "peekOfCode": "class Visitor(MyLangVisitor):\n    def __init__(self) -> None:\n        self.env = Environment()\n    def visitArgs(self, ctx: MyLangParser.ArgsContext):\n        args = []\n        for expr in ctx.expr():\n            expr = self.visitExpr(expr)\n            if isinstance(expr, idRepr):\n                expr = self.env.get_var_value(expr.value)\n            args.append(expr)",
+        "detail": "core.Visitor",
+        "documentation": {}
+    }
+]
